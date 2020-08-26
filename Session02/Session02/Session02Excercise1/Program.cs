@@ -8,6 +8,10 @@ namespace Session02Excercise1
         {
             Console.WriteLine("Hello scrubs");
 
+            var integerValue = 5;
+
+            Console.WriteLine("Integer's value is: " + integerValue);
+
             string stringValue = "of Steel";
 
             Console.WriteLine("The walls are made " + stringValue);
