@@ -6,14 +6,16 @@ namespace Session02Excercise1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello scrubs");
             if (1 > 2)
             {
                 Console.WriteLine("One is greater than two");
             }
-            else 
-            { 
+            else
+            {
                 Console.WriteLine("Two is greater than one");
             }
+        }
+
     }
 }
