@@ -18,7 +18,7 @@ namespace Session03Exercise01
             var doWhileIndex = 0;
 
             do
-            {s
+            {
                 var value = integerValuesName[doWhileIndex];
                 Console.WriteLine($"Index {doWhileIndex} i arrayed {integerValuesName} ");
             }
