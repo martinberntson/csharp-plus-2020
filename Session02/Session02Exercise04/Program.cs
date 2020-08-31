@@ -9,11 +9,13 @@ namespace Session02Excercise04
             Console.WriteLine("Please enter an integer.");
             var input = Console.ReadLine();
             var integer = Convert.ToInt32(input);
+
+
             if (integer >= 18)
             {
                 Console.WriteLine("The number you entered is greater than or equal to 18.");
             }
-            else if (integer >=10 && integer <18)
+            else if (integer >= 10 && integer <18)
             {
                 Console.WriteLine("The number you entered is between 10 and 17.");
             }
@@ -21,7 +23,7 @@ namespace Session02Excercise04
             {
                 Console.WriteLine("The number you entered is between 7 and 9.");
             }
-            else if (integer >=2 && integer <7)
+            else if (integer >= 2 && integer <7)
             {
                 Console.WriteLine("The number you enetered is between 2 and 6.");
             }
@@ -36,6 +38,7 @@ namespace Session02Excercise04
             var tempInt = Convert.ToInt32(temp);
             string waterLabel;
 
+
             if (tempInt >= 27)
             {
                 waterLabel = "Går att bada";
@@ -43,10 +46,12 @@ namespace Session02Excercise04
             else {
                 waterLabel = "Fel temperatur.";
             }
+
             Console.WriteLine(waterLabel);
             //ALternativ
             string waterLabelAlt = integer >= 27 ? "Går att bada" : "Går inte att bada";
             Console.WriteLine(waterLabelAlt);
+
 
             switch (integer)
             {
